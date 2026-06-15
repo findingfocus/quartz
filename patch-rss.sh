@@ -1,0 +1,1 @@
+sed -i '' 's/content: generateRSSFeed(cfg, linkIndex, options, options.rssLimit),/content: generateRSSFeed(cfg, new Map(Array.from(linkIndex).filter(([, c]) => c.tags.includes("feed"))), options, options.rssLimit),/' .quartz/plugins/content-index/dist/index.js
