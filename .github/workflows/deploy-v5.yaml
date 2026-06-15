@@ -17,15 +17,17 @@ concurrency:
 
 jobs:
   deploy:
+    if: ${{ github.repository == 'findingfocus/quartz' || github.repository == 'findingfocus/findingfocus.github.io' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          repository: ${{ github.repository }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -38,7 +40,7 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
 
-      - name: Upload artifact
+      - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
@@ -46,4 +48,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
