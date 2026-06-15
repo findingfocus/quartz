@@ -40,6 +40,13 @@ jobs:
       - name: Install Quartz Plugins
         run: npx quartz plugin install
 
+      - name: Install Quartz Plugins
+        run: npx quartz plugin install
+
+      - name: Patch RSS to feed-tagged posts only
+        run: |
+          sed -i 's/content: generateRSSFeed(cfg, linkIndex, options, options.rssLimit),/content: generateRSSFeed(cfg, new Map(Array.from(linkIndex).filter(([, c]) => c.tags.includes("feed"))), options, options.rssLimit),/' .quartz/plugins/content-index/dist/index.js
+
       - name: Build Quartz
         run: npx quartz build
 
