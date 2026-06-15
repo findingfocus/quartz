@@ -1,7 +1,7 @@
 ---
 title: GameDev Garden
 tags:
-publish: "true"
+  - "#feed"
 ---
 
 This is a garden of information for getting started in game development and my notes on how to build things.
