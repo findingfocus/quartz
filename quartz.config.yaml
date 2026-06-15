@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: findingfocus.github.io/quartz
+  baseUrl: findingfocus.gg
   ignorePatterns:
     - private
     - templates
@@ -215,8 +215,9 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/findingfocus
+        Discord Community: https://discord.gg/g63sjnWYwP
+        Tashio Tempo: https://steam.tashio.dev
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
