@@ -1,5 +1,5 @@
 ---
-title: Hello world!
+title: Lua
 ---
 
 This is me testing out this sweet application, thanks, jzhao!
