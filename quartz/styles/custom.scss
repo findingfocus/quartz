@@ -7,3 +7,39 @@
     font-size: 1.2rem;
   }
 }
+
+a.tag-link[href$="/tags/feed"],
+a.tag-link[href="./tags/feed"] {
+  display: none;
+}
+
+.popover-inner {
+  width: 60vw;
+  max-width: none;
+}
+
+a.btn-green {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.4em 1em;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #218060, #1a5940);
+  color: #f4f4f2 !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  border: 1px solid #123f2c;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    background: linear-gradient(to bottom, #1a5940, #123f2c);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  }
+}
