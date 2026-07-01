@@ -16,15 +16,19 @@ tags:
   </iframe>
 </div>
 
-Welcome to the **GameDev Garden**! I'm sharing my development pipeline for shipping games to all major operating systems including Steam. If you've always wanted to start making games and don't know where to start, head over to the [[Getting Started]] page.
+I have been making games alone for five years. I taught myself to program, draw pixel art, and ship executables to Mac, Windows, Linux, and the web — all with free, open-source tools. I have published over 750 devlogs documenting my journey.
 
-On this website I'll be focusing on Love2d and Lua since it is a framework that's simple to start with, free to use, and versatile in deployment. All game code examples will be from Love2d repositories. 
+This site is the pipeline I have built through that process. It is focused on Love2D and Lua: a framework that is simple to start with, free to use, and versatile enough to ship to every major operating system including Steam. I chose these tools because they let one person make an entire world filled with code, music, and art.
+
+The kind of games I care about go beyond entertainment. Interactive art can be consciousness-expanding. It can teach you how to truly see. If you are building something ambitious by yourself, using free tools, this site is for you.
 
 ---
 
 ## Table of Contents
 
-- [[#Getting Started]]
-- [[#Core Concepts]]
-- [[#Code Patterns]]
-- [[#Tools & Libraries]]
+- [Getting Started](https://findingfocus.gg/#getting-started) — Setup, first project, the minimum you need to begin.
+- [Core Concepts](https://findingfocus.gg/#core-concepts) — Architecture, the game loop, how Love2D thinks.
+- [Code Patterns](https://findingfocus.gg/#code-patterns) — Reusable patterns from real repositories.
+- [Tools & Libraries](https://findingfocus.gg/#tools--libraries) — Everything else I have found useful along the way.
+
+Use what helps. Make the game you want to play. The strange, niche one that is mainly just for you. That might be the only way to make something genuinely original.
