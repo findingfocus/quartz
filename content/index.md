@@ -1,5 +1,5 @@
 ---
-title: Welcome to GameDev Garden 🌱
+title: Welcome to GameDev Garden
 tags:
   - feed
 ---
