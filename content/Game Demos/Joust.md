@@ -2,8 +2,7 @@
   <iframe 
     src="static/games/joust/index.html" 
     width="100%" 
-    height="580px"
-    style="border: none; display: block; background: #111713;"
+    style="border: none; display: block; background: #111713; aspect-ratio: 584 / 480;"
     allowtransparency="true"
     allowfullscreen
     scrolling="no">
