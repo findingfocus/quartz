@@ -83,6 +83,9 @@ plugins:
     order: 60
   - source: github:quartz-community/description
     enabled: true
+    options:
+      descriptionLength: 400
+      maxDescriptionLength: 500
     order: 70
   - source: github:quartz-community/latex
     enabled: true

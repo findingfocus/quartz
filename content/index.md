@@ -14,22 +14,23 @@ tags:
   </iframe>
 </div>
 
-I have been making games alone for five years. I taught myself to program, draw pixel art, and ship executables to Mac, Windows, Linux, and the web — all with free, open-source tools. I have published over 750 devlogs documenting my journey.
+Have you ever had a work of art alter your life trajectory? After experiencing [The Witness](https://store.steampowered.com/app/210970/The_Witness/), I knew that I was destined to craft interactive art. The past couple years I've been teaching myself how to develop games and share them with the world. 
 
-This site is the pipeline I have built through that process. It is focused on Love2D and Lua; a framework that is simple to start with, free to use, and versatile enough to ship to every major operating system including Steam. I chose these tools because they let one person make an entire world filled with code, music, and art.
+This site is the pipeline I have built through that process. It is currently focused on [Love2D](https://love2d.org/) and [Lua](https://www.lua.org/) which is a framework that is simple to start with, free to use, and enables distribution to every major operating system including [Steam](https://store.steampowered.com/). I chose these tools because they provide a stable ground for learning and building. 
 
-The kind of games I care about go beyond entertainment. Interactive art can be consciousness-expanding. It can teach you how to truly see. If you are building something ambitious by yourself, using free tools, this site is for you.
+The kind of games I care about making aren't just entertainment, they can teach you about yourself and the world. If you want to learn to craft interactive art by yourself using free tools, this site can be a resource for you.
 
 > [!QUOTE]
 > "This second we can turn the tables on Resistance.  This second, we can sit down and do our work.”<br>― Steven Pressfield, [The War of Art](https://stevenpressfield.com/books/the-war-of-art/)
 
+**Solo development is difficult.** After years of practice, it's still difficult. ***But you can do it***. I know you can because I've walked that path, and I'm providing resources that could have paved the runway for me. Hopefully this can inspire you to get started.
+
 ---
-
-## Table of Contents
-
-- [Getting Started](https://findingfocus.gg/#getting-started) — Setup, first project, the minimum you need to begin.
-- [Core Concepts](https://findingfocus.gg/#core-concepts) — Architecture, the game loop, how Love2D thinks.
-- [Code Patterns](https://findingfocus.gg/#code-patterns) — Reusable patterns from real repositories.
+## Topics
+- [Getting Started](https://findingfocus.gg/#getting-started) — Don't know anything about code? Start here.
+- [Why Love2d](https://findingfocus.gg/#core-concepts) — I know learning a new framework is daunting, but this is simple.
+- [Starter Templates](bttf) — Snag a template and start fiddling around.
+- [Game Distribution](https://findingfocus.gg/#code-patterns) — I want to show you how simple it is to share your games.
 - [Tools & Libraries](https://findingfocus.gg/#tools--libraries) — Everything else I have found useful along the way.
 
-Use what helps. Make the game you want to play. The strange, niche one that is mainly just for you. That might be the only way to make something genuinely original.
+#### Make the game that you want to play. The world wants to see what you have to offer.
