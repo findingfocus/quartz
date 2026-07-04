@@ -1,3 +1,5 @@
+Only works on desktop
+
 <div style="background: #111713; max-width: 720px; overflow: hidden;">
   <iframe 
     src="static/games/tak/index.html" 
