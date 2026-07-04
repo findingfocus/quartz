@@ -25,7 +25,6 @@ The kind of games I care about making aren't just entertainment, they can teach 
 
 **Solo development is difficult.** After years of practice, it's still difficult. ***But you can do it***. I know you can because I've walked that path, and I'm providing resources that could have paved the runway for me. Hopefully this can inspire you to get started.
 
-
 ---
 ## Topics
 - [Getting Started](https://findingfocus.gg/#getting-started) — Don't know anything about code? Start here.
