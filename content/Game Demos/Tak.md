@@ -1,4 +1,4 @@
-Grab a friend and play on desktop!
+Grab a friend and play on desktop
 
 <div style="background: #111713; max-width: 720px; overflow: hidden;">
   <iframe 
