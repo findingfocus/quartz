@@ -23,14 +23,15 @@ The kind of games I care about making aren't just entertainment, they can teach 
 > [!QUOTE]
 > "This second we can turn the tables on Resistance.  This second, we can sit down and do our work.”<br>― Steven Pressfield, [The War of Art](https://stevenpressfield.com/books/the-war-of-art/)
 
-**Solo development is difficult.** After years of practice, it's still difficult. ***But you can do it***. I know you can because I've walked that path, and I'm providing resources that could have paved the runway for me. Hopefully this can inspire you to get started.
+## You Can Do It
+**Solo game development is difficult.** Even after years of practice it will still be difficult. ***But you can do it***. I know it's possible because I'm walking that path, and I'm providing resources that could have paved the way for me. Hopefully this can inspire you to get started.
 
 ---
-## Topics
-- [Getting Started](https://findingfocus.gg/#getting-started) — Don't know anything about code? Start here.
-- [Why Love2d](https://findingfocus.gg/#core-concepts) — I know learning a new framework is daunting, but this is simple.
-- [Starter Templates](bttf) — Snag a template and start fiddling around.
-- [Game Distribution](https://findingfocus.gg/#code-patterns) — I want to show you how simple it is to share your games.
-- [Tools & Libraries](https://findingfocus.gg/#tools--libraries) — Everything else I have found useful along the way.
+## Fast Travel
+- [[Getting Started]] — Don't know anything about code? Start here.
+- [[Love2d]] — I know learning a new framework is daunting, but this is simple.
+- [[Starter Template]] — Snag a template and start fiddling around.
+- [[Game Distribution]] — I want to show you how simple it is to share your games.
+- [[Free Tools]] — Everything else I have found useful along the way.
 
-#### Make the game that you want to play. The world wants to see what you have to offer.
+**Make the game that you want to play. The world wants to see what you have to offer.**

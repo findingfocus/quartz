@@ -11,10 +11,47 @@
   }
 }
 
-a.tag-link[href$="/tags/feed"],
-a.tag-link[href="./tags/feed"] {
-  display: none;
+body {
+  background-image: url('../static/overworld.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
+
+// body::before {
+//   content: "";
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-color: #111713;
+//   opacity: 0.96;
+//   z-index: -1;
+// }
+
+body::before {
+  transition: background-color 0.5s ease;
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.96;
+  z-index: -1;
+  background-color: #111713;
+}
+
+html[saved-theme="light"] body::before {
+  background-color: #faf9f6;
+  opacity: 0.90;
+}
+
+// a.tag-link[href$="/tags/feed"],
+// a.tag-link[href="./tags/feed"] {
+//   display: none;
+// }
 
 .popover-inner {
   width: 60vw;
