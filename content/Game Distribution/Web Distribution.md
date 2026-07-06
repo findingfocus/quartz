@@ -29,7 +29,7 @@ mv love.wasm /Users/findingfocus/git/tashio.dev/
 If you want one command to create the script yourself, you can run this
 ```bash
 cat > build.sh << 'EOF'
-#!/bin/bash
+#!/usr/bin/env bash
 # =============================================
 # LÖVE2d Web Build Script
 # Lives in same level as your project folders.
