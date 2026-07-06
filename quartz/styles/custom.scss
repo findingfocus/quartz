@@ -2,7 +2,7 @@
 
 // put your custom CSS here!
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .page-title {
     font-size: 1.2rem;
   }
@@ -12,46 +12,37 @@
 }
 
 body {
-  background-image: url('../static/overworld.webp');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-image: 
+    linear-gradient(rgba(17, 23, 19, 0.96), rgba(17, 23, 19, 0.96)),
+    url('../static/overworld.webp');
+  background-size: cover, cover;
+  background-position: center, center;
+  background-attachment: fixed, fixed;
+  transition: background-image 0.5s ease;
 }
 
-// body::before {
-//   content: "";
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-color: #111713;
-//   opacity: 0.96;
-//   z-index: -1;
-// }
-
-body::before {
-  transition: background-color 0.5s ease;
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.96;
-  z-index: -1;
-  background-color: #111713;
+html[saved-theme="light"] body {
+  background-image: 
+    linear-gradient(rgba(250, 249, 246, 0.90), rgba(250, 249, 246, 0.90)),
+    url('../static/overworld.webp');
 }
 
-html[saved-theme="light"] body::before {
-  background-color: #faf9f6;
-  opacity: 0.90;
+@media (max-width: 800px) {
+  body {
+    background-image: none;
+    background-color: #111713;
+  }
+
+  html[saved-theme="light"] body {
+    background-image: none;
+    background-color: #faf9f6;
+  }
 }
 
-// a.tag-link[href$="/tags/feed"],
-// a.tag-link[href="./tags/feed"] {
-//   display: none;
-// }
+a.tag-link[href$="/tags/feed"],
+a.tag-link[href="./tags/feed"] {
+  display: none;
+}
 
 .popover-inner {
   width: 60vw;
@@ -71,15 +62,78 @@ a.btn-green {
   border: 1px solid #123f2c;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
-
   &:hover {
     background: linear-gradient(to bottom, #1a5940, #123f2c);
     transform: translateY(-1px);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
   }
-
   &:active {
     transform: translateY(0);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  }
+}
+
+a.btn-blue {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.4em 1em;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #3d6f99, #2d4d6e);
+  color: #f4f4f2 !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  border: 1px solid #1f3a52;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+  &:hover {
+    background: linear-gradient(to bottom, #2d4d6e, #1f3a52);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  }
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.btn-icon {
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  border-radius: 0 !important;
+  object-fit: contain !important;
+}
+
+a.btn-blue svg.external-icon,
+a.btn-green svg.external-icon {
+  display: none !important;
+}
+
+a.btn-green,
+a.btn-blue {
+  height: 2.5rem;
+  padding: 0 1.2rem;
+  line-height: 2.5rem;
+}
+
+.btn-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  vertical-align: middle;
+  border-radius: 0 !important;
+  object-fit: contain !important;
+}
+
+.mobile-controls {
+  display: none !important;
+}
+
+@media (max-width: 800px) {
+  .desktop-controls {
+    display: none !important;
+  }
+  .mobile-controls {
+    display: block !important;
   }
 }

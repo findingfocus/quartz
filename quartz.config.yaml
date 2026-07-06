@@ -272,7 +272,8 @@ layout:
       exclude:
         - reader-mode
       positions:
-        right: []
+        right:
+          - graph
     tag:
       exclude:
         - reader-mode

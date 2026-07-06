@@ -1,6 +1,5 @@
 ---
 tags:
-  - "#feed"
 ---
 This is me testing out this sweet application, thanks, jzhao!
 [[index]]

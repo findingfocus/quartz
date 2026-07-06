@@ -31,7 +31,7 @@ The kind of games I care about making aren't just entertainment, they can teach 
 - [[Getting Started]] — Don't know anything about code? Start here.
 - [[Love2d]] — I know learning a new framework is daunting, but this is simple.
 - [[Starter Template]] — Snag a template and start fiddling around.
-- [[Game Distribution]] — I want to show you how simple it is to share your games.
+- [[Game Distribution/index]] — I want to show you how simple it is to share your games.
 - [[Free Tools]] — Everything else I have found useful along the way.
 
 **Make the game that you want to play. The world wants to see what you have to offer.**
