@@ -9,7 +9,7 @@ love.js [options] <input> <output>
 I create a build script to automate the web deployment. Here is a simple version of the build.sh script
 
 ```bash
-#!/bin/bash
+#!/usr/bin/env bash
 rm -f tashio.love # Remove previous build if needed
 zip -9 -r tashio.love . -x "*.git*" "*.gitignore" # Zip your game into a .love file
 mv tashio.love /Users/findingfocus/love.js/ # Send your .love file to the love.js folder
