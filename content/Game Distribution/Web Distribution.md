@@ -1,6 +1,6 @@
 Here I will show you how easy it is to package your [[Love2d]] game for distribution for the web.
 
-Download [love.js](https://github.com/Davidobot/love.js)and build your project
+Download [love.js](https://github.com/Davidobot/love.js)and build your project.
 
 ```bash
 love.js [options] <input> <output>
