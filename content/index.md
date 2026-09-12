@@ -1,7 +1,5 @@
 ---
 title: Welcome to GameDev Garden
-tags:
-  - feed
 tabTitle: GameDev Garden
 ---
 <div style="background: #111713; max-width: 500px; overflow: hidden;">
