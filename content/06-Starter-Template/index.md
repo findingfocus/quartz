@@ -55,7 +55,7 @@ Full guidance lives in the repo's `README.md`.
 
 ## Study the full example (BTTF)
 
-The [[Game Demos/BTTF|Time Machine]] demo was built on this exact pattern, extended with a speedometer, obstacles, crash audio, and touch zones. Browse it annotated here:
+The [[Game Demos/BTTF|BTTF]] demo was built on this exact pattern, extended with a speedometer, obstacles, crash audio, and touch zones. Browse it annotated here:
 
 - [[06-Starter-Template/bttf/main|main.lua]] — the whole wiring
 - [[06-Starter-Template/bttf/StateMachine|StateMachine.lua]]

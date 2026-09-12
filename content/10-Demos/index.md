@@ -15,7 +15,7 @@ Don't just read — play, then open the source and see how the trick works. Ever
 | [[Game Demos/Joust\|Joust]] — 2-player joust duel             | Flap physics, local multiplayer input, web embed with mobile controls |
 | [[Game Demos/Tak\|Tak]] — grab-a-friend board game            | Large-format web embed, turn structure                                |
 | [[Game Demos/Tashio Tempo\|Tashio Tempo]] — gameboy adventure | Full ship pipeline: web + Win/Mac/Linux + Steam from one codebase     |
-| [[Game Demos/BTTF\|Time Machine]] — My first game             | State machine (title → play → win), speed-coupled parallax            |
+| [[Game Demos/BTTF\|BTTF]] — My first game             | State machine (title → play → win), speed-coupled parallax            |
 
 ## How to read a demo
 
