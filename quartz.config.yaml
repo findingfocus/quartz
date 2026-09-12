@@ -147,6 +147,8 @@ plugins:
     enabled: true
   - source: github:quartz-community/folder-page
     enabled: true
+    options:
+      showFolderCount: false
   - source: github:quartz-community/tag-page
     enabled: true
   - source: github:quartz-community/explorer
@@ -178,7 +180,7 @@ plugins:
       position: beforeBody
       priority: 10
   - source: github:quartz-community/content-meta
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 20
@@ -218,13 +220,9 @@ plugins:
     layout:
       position: afterBody
       priority: 10
-  - source: github:quartz-community/footer
+  - source: ./plugins/footer
     enabled: true
-    options:
-      links:
-        GitHub: https://github.com/findingfocus
-        Discord Community: https://discord.gg/g63sjnWYwP
-        Tashio Tempo: https://steam.tashio.dev
+    options: {}
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer

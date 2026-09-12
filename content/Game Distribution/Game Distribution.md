@@ -1,1 +1,0 @@
-Here I will show you how easy it is to package your [[Love2d]] game for distribution on [[Windows Distribution]], Mac, Linux, and the Web.

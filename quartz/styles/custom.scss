@@ -132,3 +132,32 @@ a.btn-blue {
     display: block !important;
   }
 }
+
+// Folder listings (Game Demos, etc.): hide last-modified stamps,
+// they shift on every edit and add noise to curated pages
+.section-li .section p.meta {
+  display: none;
+}
+
+// Internal links: no pill background, plain link color
+a.internal {
+  background-color: transparent;
+}
+
+// Footer shape (credit line above links row), owned here since the
+// footer component is repo-owned too
+footer {
+  text-align: left;
+  margin-bottom: 4rem;
+  opacity: 0.7;
+
+  & ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: -1rem;
+  }
+}

@@ -24,7 +24,7 @@ Verify: run `love --version` in a terminal. You should see `LOVE 11.x`.
 
 ## 2. Install an editor
 
-- **Beginner:** [VS Code](https://code.visualstudio.com/) + the `Lua` + `Love2D Support` extensions
+- **Beginner:** [Sublime Text](https://www.sublimetext.com/) + the Love2D package (via Package Control)
 - **Minimal:** anything that edits text files
 - **What I use:** Neovim + Git (see [[08-Tools/index\|Tools]] for my full setup)
 
@@ -74,7 +74,6 @@ Full annotated version with state machine lives in [[06-Starter-Template/index\|
 | Black window, nothing drawn | You need at least `love.draw()` in `main.lua` — Love2D calls it 60x/sec |
 | `Error: main.lua not found` | You pointed `love` at the wrong folder — point it at the folder *containing* `main.lua`, not the file itself |
 
-## Next
 
 > [!tip] Next step
 > Continue with [[03-Lua-Essentials/index|Lua Essentials]] (Path A) or [[04-Love2D-Basics/index|Love2D Basics]] (Path B). Or skip ahead and [[05-First-Game/index|build Pong]].

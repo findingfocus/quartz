@@ -1,3 +1,7 @@
+---
+# Pins Game Demos folder order (newest first)
+modified: 2026-07-04
+---
 <style>
   .content-meta {
     display: none !important;

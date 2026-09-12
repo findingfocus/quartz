@@ -2,7 +2,7 @@
 title: Welcome to GameDev Garden
 tabTitle: GameDev Garden
 ---
-<div style="background: #111713; max-width: 500px; overflow: hidden;">
+<div style="background: #111713; max-width: 500px; overflow: hidden; margin-top: 1rem;">
   <iframe 
     src="static/games/joust-demo/index.html" 
     width="100%" 
@@ -26,7 +26,7 @@ The kind of games I care about making aren't just entertainment, they can teach 
 **Solo game development is difficult.** Even after years of practice it will still be difficult. ***But you can do it***. I know it's possible because I'm walking that path, and I'm providing resources that could have paved the way for me. Hopefully this can inspire you to get started.
 
 ---
-## Fast Travel — V1 Hub
+## Fast Travel
 - [[01-Start-Here/index|Start Here]] — Never coded? Pick your path (10–60 min tracks).
 - [[02-Setup/index|Setup & Quickstart]] — Install Love2D, run a window in 15 min.
 - [[03-Lua-Essentials/index|Lua Essentials]] — Just enough Lua for games.

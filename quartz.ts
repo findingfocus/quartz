@@ -14,8 +14,7 @@ type ExplorerNode = {
 }
 
 function customOrder(a: ExplorerNode, b: ExplorerNode): number {
-  const sameKind =
-    (!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)
+  const sameKind = (!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)
   if (!sameKind) {
     if (!a.isFolder && b.isFolder) return 1
     return -1

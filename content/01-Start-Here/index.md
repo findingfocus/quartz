@@ -8,9 +8,6 @@ tags:
 
 **Solo game dev is hard. But you can do it.** This hub is the pipeline I wish I had: free tools, tiny concepts, and a straight line from zero to a game you can share.
 
-> [!QUOTE]
-> "This second we can turn the tables on Resistance. This second, we can sit down and do our work." — Steven Pressfield, *The War of Art*
-
 ## Pick your path
 
 | Path | You are... | Do this | Time |
@@ -30,13 +27,11 @@ tags:
 
 - A computer (Windows, Mac, or Linux — all work)
 - [Love2D](https://love2d.org/) (free, ~10MB)
-- Any text editor ([VS Code](https://code.visualstudio.com/) recommended for beginners)
+- Any text editor ([Sublime Text](https://www.sublimetext.com/) is what I learned on)
 - No money, no game engine account, no experience
 
-> [!TIP]
+> [!help] Get Help
 > Stuck? Every page has a **Try it** step and a **When it breaks** box. Read the break box first — that's where the learning lives.
-
-## Next
 
 > [!tip] Next step
 > Go to [[02-Setup/index|Setup]] and get a window on screen. That's your first win.

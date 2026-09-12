@@ -12,7 +12,7 @@ Everything here is free. My rule: learn the tool when the game demands it, not b
 
 | Tool | Why | Start when... |
 | ---- | --- | ------------- |
-| [VS Code](https://code.visualstudio.com/) + Lua extensions | Least friction for beginners | Right now |
+| [Sublime Text](https://www.sublimetext.com/) + the Love2D package (via Package Control) | What I learned on and recommend — instant, lightweight, stays out of your way | Right now |
 | [Git](https://git-scm.com/) + [GitHub](https://github.com/) | Undo button for your whole project + free backup | Before your second game |
 | Neovim | Fast once you live in terminal (what I use) | You're curious, not before |
 
