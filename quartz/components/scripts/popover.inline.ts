@@ -105,6 +105,11 @@ async function mouseEnterHandler(
       if (elts.length === 0) return
 
       elts.forEach((elt) => popoverInner.appendChild(elt))
+      // Never boot embeds inside a hover preview: appending an iframe (or
+      // audio/video element) to the live DOM loads and plays it, and hiding
+      // the popover on mouseleave would not stop the sound. Previews are
+      // text-only by design.
+      popoverInner.querySelectorAll("iframe, audio, video").forEach((el) => el.remove())
   }
 
   if (!!document.getElementById(popoverId)) {
