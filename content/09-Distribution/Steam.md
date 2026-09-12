@@ -1,9 +1,6 @@
 ---
 title: Steam Distribution
 description: From desktop builds to a Steam store page — what changes and what's the same.
-tags:
-  - distribution
-  - steam
 ---
 
 Steam is desktop builds + paperwork + a wrapper. If [[09-Distribution/Desktop|Desktop]] works, you're 80% there.

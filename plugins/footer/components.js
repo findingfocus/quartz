@@ -4,9 +4,9 @@ const brandLink = "https://findingfocus.dev"
 const brandText = "Finding Focus Productions"
 
 const defaultLinks = {
-  "Source Code": "https://findingfocus.io",
-  "Discord Community": "https://discord.gg/g63sjnWYwP",
-  "Tashio Tempo": "https://steam.tashio.dev",
+  Source: "https://findingfocus.io",
+  Discord: "https://discord.gg/g63sjnWYwP",
+  Tashio: "https://steam.tashio.dev",
   Blog: "https://findingfocus.blog",
 }
 

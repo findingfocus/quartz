@@ -1,10 +1,6 @@
 ---
 title: Starter Template
 description: Clone a runnable Love2D starter with title, play, and win screens wired and ready to remix.
-tags:
-  - hub
-  - template
-  - love2d
 ---
 
 The fastest way to start a game: clone something that already runs, then make it yours.
@@ -63,7 +59,7 @@ The [[Game Demos/BTTF|BTTF]] demo was built on this exact pattern, extended with
 - [[06-Starter-Template/bttf/states/PlayState|PlayState.lua]] — gameplay
 - [[06-Starter-Template/bttf/states/TitleScreenState|TitleScreenState.lua]] — title
 - [[06-Starter-Template/bttf/states/BaseState|BaseState.lua]]
-- [[06-Starter-Template/bttf/class|class.lua]] + [[06-Starter-Template/bttf/push|push.lua]] — vendored helpers
+- [[06-Starter-Template/bttf/class|class.lua]] + [[06-Starter-Template/bttf/push|push.lua]] — helper libraries, originals linked above
 
 Full file tree + download: [[06-Starter-Template/bttf/index|BTTF project page]].
 

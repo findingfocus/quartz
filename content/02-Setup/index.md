@@ -1,10 +1,6 @@
 ---
 title: Setup & Quickstart
 description: Install Love2D, open the barebones project, and run your first window in 15 minutes.
-tags:
-  - hub
-  - beginner
-  - setup
 ---
 
 Goal: a window on screen running **your** code. No frameworks, no build step.
@@ -52,9 +48,9 @@ Then run it:
 love /path/to/your/folder
 ```
 
-If you see text in a window, you're a game developer. Seriously.
+If you see text in a window, you're a game developer. Keep going!
 
-## 4. Project anatomy (memorize this)
+## 4. Project anatomy
 
 ```
 my-game/

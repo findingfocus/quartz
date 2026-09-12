@@ -1,10 +1,6 @@
 ---
 title: Desktop Distribution
 description: Package your Love2D game for Windows, Mac, and Linux from one .love file.
-tags:
-  - distribution
-  - desktop
-  - love2d
 ---
 
 One `.love` file, three wrappers. Players never install Love2D — you bundle it.

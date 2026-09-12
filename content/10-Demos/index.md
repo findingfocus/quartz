@@ -1,9 +1,6 @@
 ---
 title: Playable Demos
 description: Play in your browser, then steal the source — every demo ships code + downloads.
-tags:
-  - hub
-  - demos
 ---
 
 Don't just read — play, then open the source and see how the trick works. Every demo follows the same contract: **play in browser → view source → download + remix**.
@@ -17,7 +14,7 @@ Don't just read — play, then open the source and see how the trick works. Ever
 | [[Game Demos/Tashio Tempo\|Tashio Tempo]] — gameboy adventure | Full ship pipeline: web + Win/Mac/Linux + Steam from one codebase     |
 | [[Game Demos/BTTF\|BTTF]] — My first game             | State machine (title → play → win), speed-coupled parallax            |
 
-## How to read a demo
+## Practical Demo Tips
 
 1. Play it twice (once to enjoy, once to analyze)
 2. Ask: where's the state? the collision? the score? (see [[07-Cookbook/index|Cookbook]])

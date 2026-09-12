@@ -1,10 +1,6 @@
 ---
 title: Web Distribution
 description: Compile your Love2D game with love.js and embed it on any site — or right here in Quartz.
-tags:
-  - distribution
-  - web
-  - love2d
 ---
 
 Best first target: one link, no install, playtests in seconds.
@@ -26,9 +22,6 @@ Best first target: one link, no install, playtests in seconds.
    Drop the build output in `public/static/games/mygame/`.
 
 I automate all of this with a one-command `build.sh` — full script with cleanup, memory flags (`-m 67108864` for big games), and compat mode (`-c`) is documented in [[Game Distribution/Web Distribution|Web Distribution (full script)]].
-
-> [!WARNING]
-> Browsers block audio until first interaction. Start music on title-screen input, not `love.load` — see [[07-Cookbook/Audio|Audio recipe]].
 
 ## When it breaks
 

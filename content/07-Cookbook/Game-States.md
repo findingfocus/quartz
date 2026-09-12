@@ -1,9 +1,6 @@
 ---
 title: Game States
 description: Title, play, pause, and game-over screens without spaghetti code.
-tags:
-  - cookbook
-  - love2d
 ---
 
 Beginner games turn into `if playing then ... elseif paused then ...` soup. A tiny state machine fixes it — this is the same pattern in the [[06-Starter-Template/index|Starter Template]] (`StateMachine.lua`, 61 lines).

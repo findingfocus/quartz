@@ -1,9 +1,6 @@
 ---
 title: Collision
 description: Simple AABB box collision for Pong, platformers, and top-down games — no physics engine needed.
-tags:
-  - cookbook
-  - love2d
 ---
 
 For 90% of 2D beginner games, "did box A touch box B?" is all you need. That's AABB (axis-aligned bounding box):

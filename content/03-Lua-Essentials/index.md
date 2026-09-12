@@ -1,10 +1,6 @@
 ---
 title: Lua Essentials
 description: Just enough Lua to make games — variables, tables, functions, and the loop mindset.
-tags:
-  - hub
-  - beginner
-  - lua
 ---
 
 You don't need all of Lua. You need ~20% of it, used constantly. This page is that 20%. For the full language, the [official Lua docs](https://www.lua.org/manual/5.4/) and [Learn X in Y minutes](https://learnxinyminutes.com/lua/) are excellent — this hub just gives you the game-flavored cut.

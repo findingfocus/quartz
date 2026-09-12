@@ -1,10 +1,6 @@
 ---
 title: Love2D Basics
 description: The game loop, drawing, input, and audio — the four ideas behind every Love2D game.
-tags:
-  - hub
-  - beginner
-  - love2d
 ---
 
 Every Love2D game is the same skeleton. Learn it once, reuse forever:
@@ -102,7 +98,6 @@ function love.draw()
 end
 ```
 
-## Next
 
 > [!tip] Next step
 > Continue with [[05-First-Game/index|Your First Game]] — turn this into Pong, start to finish.

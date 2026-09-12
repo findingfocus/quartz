@@ -1,10 +1,6 @@
 ---
 title: Beyond Love2D
 description: Why I recommend Love2D first, when to reach for Godot/3D, and what's brewing in the Jai lab.
-tags:
-  - hub
-  - engines
-  - jai
 ---
 
 This hub leads with Love2D on purpose — but it's not the only road.
@@ -27,7 +23,7 @@ My personal reasons + full comparison live in my tool notes — but the short ve
 | Web-first casual | [LÖVE web export](https://github.com/Davidobot/love.js) is enough, or Godot HTML5 | Stay in Love2D until browsers block you |
 
 > [!NOTE]
-> GodotStarter: if you outgrow this hub, do Godot's official "Your first 2D game" tutorial, then come back — state machines, `dt`, and collision transfer 1:1.
+> Godot Starter: if you outgrow this hub, do Godot's official [Your first 2D game](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html) tutorial, then come back — state machines, `dt`, and collision transfer 1:1.
 
 ## Jai lab (future)
 

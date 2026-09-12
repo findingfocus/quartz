@@ -1,9 +1,6 @@
 ---
 title: Scaling with Push
-description: Crisp pixel-art scaling on any window size using the vendored push.lua.
-tags:
-  - cookbook
-  - love2d
+description: Crisp pixel-art scaling on any window size using push.lua from Ulydev/push.
 ---
 
 Your game logic uses a tiny virtual resolution (e.g. 480×270). `push.lua` letterboxes it to any real window. This is how BTTF stays crisp fullscreen.

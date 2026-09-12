@@ -1,9 +1,6 @@
 ---
 title: Audio
 description: Music and sound effects in Love2D without crackles, overlap bugs, or bloat.
-tags:
-  - cookbook
-  - love2d
 ---
 
 Two rules: `stream` music, `static` effects. Load once, play many times.
@@ -44,4 +41,3 @@ Free sound sources: record with Audacity, generate with [jsfxr](https://sfxr.me/
 | ------- | --- |
 | Effect cuts off when replayed fast | `:clone()` before playing (above) |
 | Music stutters / huge memory | Music must be `"stream"`, effects `"static"` — swapped them? |
-| No sound on web build | Browsers block audio until first click/keypress — start music on title-screen input, not `love.load` |

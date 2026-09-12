@@ -1,9 +1,6 @@
 ---
 title: Movement and Jump
 description: Smooth top-down movement and platformer jumping with gravity that feels good.
-tags:
-  - cookbook
-  - love2d
 ---
 
 ## Top-down (8-way)
@@ -17,12 +14,18 @@ function love.update(dt)
   if love.keyboard.isDown("right", "d") then dx = dx + 1 end
   if love.keyboard.isDown("up", "w") then dy = dy - 1 end
   if love.keyboard.isDown("down", "s") then dy = dy + 1 end
-  -- normalize diagonals so they aren't faster
-  if dx ~= 0 and dy ~= 0 then dx, dy = dx * 0.7071, dy * 0.7071 end
+  -- moving diagonally combines two full steps, so shrink the
+  -- direction back to length 1 for even speed in every direction
+  local length = math.sqrt(dx * dx + dy * dy)
+  if length > 0 then
+    dx, dy = dx / length, dy / length
+  end
   player.x = player.x + dx * player.speed * dt
   player.y = player.y + dy * player.speed * dt
 end
 ```
+
+Why this works: holding right gives the direction (1, 0), whose length is 1. Holding right *and* up gives (1, -1) — and by Pythagoras that arrow is √2 ≈ 1.41 long, so diagonals run 41% faster. Dividing by the length squeezes every direction back to exactly 1. The `* 0.7071` you'll see in other tutorials is the same fix hardcoded (`1 / math.sqrt(2)`) — it only works for 8-way keyboard input, while dividing by the length works for analog sticks too.
 
 ## Platformer jump (gravity + ground)
 
@@ -63,4 +66,4 @@ Tune in this order: `gravity` → `jumpPower` → `speed`. Small changes, playte
 | ------- | --- |
 | Floaty jump | Raise gravity, raise jump power together |
 | Can double-jump | `onGround` isn't resetting — set false on jump, true only on landing |
-| Diagonal faster | You skipped normalization (`* 0.7071`) |
+| Diagonal faster | The direction wasn't shrunk to length 1 — check the `math.sqrt` step above |

@@ -1,10 +1,6 @@
 ---
 title: Your First Game
 description: Build Pong start-to-finish in one sitting — paddles, ball, scoring, and win state.
-tags:
-  - hub
-  - beginner
-  - tutorial
 ---
 
 One sitting, one file, one playable game. Copy each block into `main.lua` in order — it runs at every step.

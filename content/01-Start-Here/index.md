@@ -1,9 +1,6 @@
 ---
 title: Start Here
 description: New to game dev? Pick your path and ship your first playable in under an hour.
-tags:
-  - hub
-  - beginner
 ---
 
 **Solo game dev is hard. But you can do it.** This hub is the pipeline I wish I had: free tools, tiny concepts, and a straight line from zero to a game you can share.

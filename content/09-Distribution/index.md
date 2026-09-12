@@ -1,9 +1,6 @@
 ---
 title: Distribution
 description: Ship your Love2D game to web, desktop, and Steam — the exact pipeline I use.
-tags:
-  - hub
-  - distribution
 ---
 
 Sharing is simpler than you think: zip it right, pair it with the Love2D runtime, upload. One afternoon, all platforms.

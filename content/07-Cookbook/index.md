@@ -1,10 +1,6 @@
 ---
 title: Cookbook
 description: Copy-paste recipes for movement, collision, states, audio, saves, and scaling.
-tags:
-  - hub
-  - cookbook
-  - love2d
 ---
 
 One problem, one page, minimal code. All recipes assume the [[06-Starter-Template/index|Starter Template]] layout but work in a single `main.lua` too.
