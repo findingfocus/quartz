@@ -3,9 +3,8 @@ import * as ExternalPlugin from "./.quartz/plugins"
 
 //test
 
-// Sidebar order: folders whose names start with a number (01-Start-Here … 11-Beyond)
-// sort numerically first, the Game Demos folder follows a curated order,
-// everything else keeps alphabetical title order.
+// Sidebar order: the hub follows an explicit rank map, the Game Demos
+// folder follows a curated order, everything else keeps alphabetical title order.
 // Must stay self-contained: this function is serialized into the page for client-side sorting.
 type ExplorerNode = {
   slugSegments?: string[]
@@ -38,11 +37,23 @@ function customOrder(a: ExplorerNode, b: ExplorerNode): number {
     const rankB = demoOrder[segB] ?? Number.MAX_SAFE_INTEGER
     if (rankA !== rankB) return rankA - rankB
   }
-  const numA = /^(\d+)/.exec(segA)
-  const numB = /^(\d+)/.exec(segB)
-  if (numA && numB) return Number(numA[1]) - Number(numB[1])
-  if (numA) return -1
-  if (numB) return 1
+  // Hub sections in learning order (folder slugs carry no numbers anymore)
+  const hubOrder: Record<string, number> = {
+    "start-here": 0,
+    setup: 1,
+    "lua-essentials": 2,
+    "love2d-basics": 3,
+    "first-game": 4,
+    "starter-template": 5,
+    cookbook: 6,
+    tools: 7,
+    distribution: 8,
+    demos: 9,
+    beyond: 10,
+  }
+  const hubA = hubOrder[segA] ?? Number.MAX_SAFE_INTEGER
+  const hubB = hubOrder[segB] ?? Number.MAX_SAFE_INTEGER
+  if (hubA !== hubB) return hubA - hubB
   return (a.displayName || "").localeCompare(b.displayName || "", undefined, {
     numeric: true,
     sensitivity: "base",

@@ -27,16 +27,16 @@ The kind of games I care about making aren't just entertainment, they can teach 
 
 ---
 ## Fast Travel
-- [[01-Start-Here/index|Start Here]] — Never coded? Pick your path (10–60 min tracks).
-- [[02-Setup/index|Setup & Quickstart]] — Install Love2D, run a window in 15 min.
-- [[03-Lua-Essentials/index|Lua Essentials]] — Just enough Lua for games.
-- [[04-Love2D-Basics/index|Love2D Basics]] — The loop, draw, input, audio.
-- [[05-First-Game/index|Your First Game: Pong]] — One sitting, one playable game.
-- [[06-Starter-Template/index|Starter Template]] — `git clone` and start fiddling.
-- [[07-Cookbook/index|Cookbook]] — Movement, collision, states, audio, saves, scaling.
-- [[08-Tools/index|Tools & Assets]] — Free editors, art, audio + Lua libraries.
-- [[09-Distribution/index|Distribution]] — Ship to [[09-Distribution/Web|Web]], [[09-Distribution/Desktop|Desktop]], [[09-Distribution/Steam|Steam]].
-- [[10-Demos/index|Playable Demos]] — Play in browser, steal the source.
-- [[11-Beyond/index|Beyond Love2D]] — Godot/3D escape hatch + Jai lab.
+- [[Start-Here/index|Start Here]] — Never coded? Pick your path (10–60 min tracks).
+- [[Setup/index|Setup & Quickstart]] — Install Love2D, run a window in 15 min.
+- [[Lua-Essentials/index|Lua Essentials]] — Just enough Lua for games.
+- [[Love2D-Basics/index|Love2D Basics]] — The loop, draw, input, audio.
+- [[First-Game/index|Your First Game: Pong]] — One sitting, one playable game.
+- [[Starter-Template/index|Starter Template]] — `git clone` and start fiddling.
+- [[Cookbook/index|Cookbook]] — Movement, collision, states, audio, saves, scaling.
+- [[Tools/index|Tools & Assets]] — Free editors, art, audio + Lua libraries.
+- [[Distribution/index|Distribution]] — Ship to [[Distribution/Web|Web]], [[Distribution/Desktop|Desktop]], [[Distribution/Steam|Steam]].
+- [[Demos/index|Playable Demos]] — Play in browser, steal the source.
+- [[Beyond/index|Beyond Love2D]] — Godot/3D escape hatch + Jai lab.
 
 **Make the game that you want to play. The world wants to see what you have to offer.**

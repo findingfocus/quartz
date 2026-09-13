@@ -1,0 +1,20 @@
+{
+  "name": "site-graph",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Repo-owned graph fork: folder centres resolve titles and neighbours",
+  "exports": {
+    "./components": "./components.js"
+  },
+  "quartz": {
+    "name": "site-graph",
+    "displayName": "Site Graph",
+    "category": "component",
+    "version": "1.0.0",
+    "components": {
+      "Graph": {
+        "displayName": "Site Graph"
+      }
+    }
+  }
+}
