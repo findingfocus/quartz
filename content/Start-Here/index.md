@@ -28,7 +28,7 @@ description: New to game dev? Pick your path and ship your first playable in und
 - A computer (Windows, Mac, or Linux — all work)
 - [Love2D](https://love2d.org/) (free, ~10MB)
 - Any text editor ([Sublime Text](https://www.sublimetext.com/) is what I learned on)
-- No money, no game engine account, no experience
+- The courage to try
 
 > [!help] Get Help
 > Stuck? Every page has a **Try it** step and a **When it breaks** box. Read the break box to find out common solutions to issues.

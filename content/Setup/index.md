@@ -3,7 +3,7 @@ title: Setup & Quickstart
 description: Install Love2D, open the barebones project, and run your first window in 15 minutes.
 ---
 
-Goal: a window on screen running **your** code. No frameworks, no build step.
+Goal: A window on screen running **your** code.
 
 ## 1. Install Love2D
 
@@ -38,14 +38,15 @@ Don't want the full BTTF example yet? Make the smallest possible game instead â€
 
 ```lua
 function love.draw()
-  love.graphics.print("Hello, game dev!", 100, 100)
+  love.graphics.print("Hello, World!", 100, 100)
 end
 ```
 
 Then run it:
 
 ```bash
-love /path/to/your/folder
+love /path/to/your/folder # love . will run in the current directory. 
+# ensure your main.lua is in this folder
 ```
 
 If you see text in a window, you're a game developer. Keep going!
