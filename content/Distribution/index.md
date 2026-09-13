@@ -13,7 +13,7 @@ Sharing is simple: zip it right, pair it with the Love2D runtime, upload. In one
 4. **Steam** = desktop builds + Steamworks wrapper
 
 ```bash
-# the universal first step, from your project folder:
+# from your project folder:
 zip -9 -r mygame.love . -x "*.git*" "*.gitignore"
 ```
 
