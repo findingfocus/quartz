@@ -1,7 +1,5 @@
 ---
 title: "push.lua"
-aliases:
-  - 06-starter-template/bttf/push
 ---
 
 ```lua

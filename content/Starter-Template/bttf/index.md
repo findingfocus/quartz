@@ -1,7 +1,5 @@
 ---
 title: "bttf"
-aliases:
-  - 06-starter-template/bttf/index
 ---
 
 ## 📁 [bttf](https://github.com/findingfocus/bttf)
@@ -34,14 +32,14 @@ aliases:
 
 
 **`states/`**
-- [[bttf/states/BaseState|BaseState.lua]] — *7 lines*
-- [[bttf/states/PlayState|PlayState.lua]] — *144 lines*
-- [[bttf/states/TitleScreenState|TitleScreenState.lua]] — *46 lines*
-- [[bttf/states/WinState|WinState.lua]] — *31 lines*
+- [[Starter-Template/bttf/states/BaseState|BaseState.lua]] — *7 lines*
+- [[Starter-Template/bttf/states/PlayState|PlayState.lua]] — *144 lines*
+- [[Starter-Template/bttf/states/TitleScreenState|TitleScreenState.lua]] — *46 lines*
+- [[Starter-Template/bttf/states/WinState|WinState.lua]] — *31 lines*
 
 **`bttf/`** (root)
-- [[bttf/Delorean|Delorean.lua]] — *45 lines*
-- [[bttf/StateMachine|StateMachine.lua]] — *35 lines*
-- [[bttf/class|class.lua]] — *98 lines*
-- [[bttf/main|main.lua]] — *125 lines*
-- [[bttf/push|push.lua]] — *232 lines*
+- [[Starter-Template/bttf/Delorean|Delorean.lua]] — *45 lines*
+- [[Starter-Template/bttf/StateMachine|StateMachine.lua]] — *35 lines*
+- [[Starter-Template/bttf/class|class.lua]] — *98 lines*
+- [[Starter-Template/bttf/main|main.lua]] — *125 lines*
+- [[Starter-Template/bttf/push|push.lua]] — *232 lines*

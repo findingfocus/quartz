@@ -1,7 +1,5 @@
 ---
 title: Tools and Assets
-aliases:
-  - 08-tools/index
 description: Every free tool I actually use — editor, git, art, audio — plus the only Lua libraries worth learning first.
 ---
 

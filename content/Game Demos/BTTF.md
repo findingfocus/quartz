@@ -50,3 +50,6 @@ modified: 2026-07-03
 <a href="https://github.com/findingfocus/bttf" class="btn-green" target="_blank" rel="noopener noreferrer"><span>View on Github</span><img class="btn-icon" src="static/github.svg" alt="Github"  style="filter: invert(1)" ></a>
 
 <a href="https://github.com/findingfocus/bttf/archive/refs/heads/master.zip" class="btn-green"><span>Download Source Code</span><img class="btn-icon" src="static/git.png" alt="Source Code"></a>
+
+---
+**Study the source:** built on the [[Starter-Template/index|Starter Template]] — browse the annotated [[Starter-Template/bttf/index|BTTF project page]], learn the pattern in [[Cookbook/Game-States|Game States]], add crash sounds via [[Cookbook/Audio|Audio]]. More to play in [[Demos/index|Demos]].

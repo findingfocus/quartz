@@ -1,11 +1,9 @@
 ---
 title: Distribution
-aliases:
-  - 09-distribution/index
 description: Ship your Love2D game to web, desktop, and Steam — the exact pipeline I use.
 ---
  
-Sharing is simpler than you think: zip it right, pair it with the Love2D runtime, upload. One afternoon, all platforms.
+Sharing is simple: zip it right, pair it with the Love2D runtime, upload. In one session you can deploy for all platforms.
 
 ## The mental model
 
@@ -28,6 +26,6 @@ zip -9 -r mygame.love . -x "*.git*" "*.gitignore"
 | **Steam** — store page + depots | [[Distribution/Steam\|Steam guide]] | An afternoon |
 
 > [!TIP]
-> Ship web **first**. Link beats download — friends playtest in one click, and every demo in [[Demos/index|Demos]] is a web build for exactly this reason.
+> Web builds are easy to share, but require touch control implementation if you want mobile support.
 
-Legacy deep-dives (kept for reference): [[Game Distribution/Game Distribution|old overview]], [[Game Distribution/Web Distribution|old web script]].
+

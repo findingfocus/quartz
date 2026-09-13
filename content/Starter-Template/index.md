@@ -1,7 +1,5 @@
 ---
 title: Starter Template
-aliases:
-  - 06-starter-template/index
 description: Clone a runnable Love2D starter with title, play, and win screens wired and ready to remix.
 ---
 

@@ -1,11 +1,9 @@
 ---
 title: Beyond Love2D
-aliases:
-  - 11-beyond/index
 description: Why I recommend Love2D first, when to reach for Godot/3D, and what's brewing in the Jai lab.
 ---
 
-This hub leads with Love2D on purpose — but it's not the only road.
+This hub leads with Love2D on purpose, but it's not the only road.
 
 ## Why Love2D first
 

@@ -1,7 +1,5 @@
 ---
 title: Web Distribution
-aliases:
-  - 09-distribution/web
 description: Compile your Love2D game with love.js and embed it on any site — or right here in Quartz.
 ---
 
@@ -23,7 +21,7 @@ Best first target: one link, no install, playtests in seconds.
    ```
    Drop the build output in `public/static/games/mygame/`.
 
-I automate all of this with a one-command `build.sh` — full script with cleanup, memory flags (`-m 67108864` for big games), and compat mode (`-c`) is documented in [[Game Distribution/Web Distribution|Web Distribution (full script)]].
+I automate all of this with a one-command `build.sh` — full script with cleanup, memory flags (`-m 67108864` for big games), and compat mode (`-c`) is documented in [[Web Distribution Script|Web Distribution (full script)]].
 
 ## When it breaks
 

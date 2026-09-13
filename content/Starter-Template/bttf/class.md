@@ -1,7 +1,5 @@
 ---
 title: "class.lua"
-aliases:
-  - 06-starter-template/bttf/class
 ---
 
 ```lua

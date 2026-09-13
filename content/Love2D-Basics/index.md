@@ -1,7 +1,5 @@
 ---
 title: Love2D Basics
-aliases:
-  - 04-love2d-basics/index
 description: The game loop, drawing, input, and audio — the four ideas behind every Love2D game.
 ---
 
@@ -11,13 +9,24 @@ Every Love2D game is the same skeleton. Learn it once, reuse forever:
 function love.load()    -- runs once: load images, set up state
 end
 
-function love.update(dt) -- runs 60x/sec: move things, check rules
+function love.update(dt) -- runs 60 times per second: move things, check rules
 end
 
-function love.draw()     -- runs 60x/sec: draw everything
+function love.draw()     -- runs 60 times per second: draw everything
 end
 ```
+## Config
 
+`conf.lua` sits next to `main.lua`:
+
+```lua
+function love.conf(t)
+  t.title = "My First Game"
+  t.console = true -- enable print to console
+  t.window.width = 800
+  t.window.height = 600
+end
+```
 ## Drawing
 
 Origin `(0,0)` is top-left. `x` goes right, `y` goes down.
@@ -69,18 +78,6 @@ end
 ```
 
 Short sound effects: use `"static"` instead of `"stream"`. More in [[Cookbook/Audio|Audio recipe]].
-
-## Config
-
-`conf.lua` sits next to `main.lua`:
-
-```lua
-function love.conf(t)
-  t.title = "My First Game"
-  t.window.width = 800
-  t.window.height = 600
-end
-```
 
 ## Try it (10 min)
 

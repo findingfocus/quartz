@@ -54,3 +54,6 @@ modified: 2026-07-05
 <a href="https://github.com/findingfocus/joust/releases/download/v1.1/Joust_osx-v1.1.zip" class="btn-blue" target="_blank" rel="noopener noreferrer" title="Joust_osx-v1.1.zip">Download for macOS <img class="btn-icon" src="static/apple-icon.png" alt="macOS"></a>
 
 <a href="https://github.com/findingfocus/joust/releases/download/v1.1/Joust_linux-v1.1.tar.gz" class="btn-blue" target="_blank" rel="noopener noreferrer" title="Joust_linux-v1.1.tar.gz">Download for Linux <img class="btn-icon" src="static/linux-icon.png" alt="Linux"></a>
+
+---
+**Study the source:** flap physics from [[Cookbook/Movement-and-Jump|Movement & Jump]], hits via [[Cookbook/Collision|Collision]]. More to play in [[Demos/index|Demos]].

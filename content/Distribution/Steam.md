@@ -1,7 +1,5 @@
 ---
 title: Steam Distribution
-aliases:
-  - 09-distribution/steam
 description: From desktop builds to a Steam store page — what changes and what's the same.
 ---
 

@@ -28,3 +28,6 @@ modified: 2026-07-06
 <a href="https://github.com/findingfocus/tashio/releases/download/v2.1.2/Tashio_osx-v2.1.2.zip" class="btn-blue" target="_blank" rel="noopener noreferrer" title="Tashio_osx-v2.1.2.zip">Download for macOS <img class="btn-icon" src="static/apple-icon.png" alt="macOS"></a>
 
 <a href="https://github.com/findingfocus/tashio/releases/download/v2.1.1/Tashio_linux-v2.1.2.tar.gz" class="btn-blue" target="_blank" rel="noopener noreferrer" title="Tashio_linux-v2.1.2.tar.gz">Download for Linux <img class="btn-icon" src="static/linux-icon.png" alt="Linux"></a>
+
+---
+**Study the source:** shipped web + desktop + Steam from one codebase — the full pipeline in [[Distribution/index|Distribution]]. More to play in [[Demos/index|Demos]].

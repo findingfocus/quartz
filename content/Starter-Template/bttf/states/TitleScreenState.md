@@ -1,7 +1,5 @@
 ---
 title: "TitleScreenState.lua"
-aliases:
-  - 06-starter-template/bttf/states/titlescreenstate
 ---
 
 ```lua
@@ -52,3 +50,5 @@ function TitleScreenState:render()
 
 end
 ```
+
+Part of the [[Starter-Template/bttf/index|BTTF project]] — pattern explained in [[Cookbook/Game-States|Game States]], template in [[Starter-Template/index|Starter Template]].

@@ -1,7 +1,5 @@
 ---
 title: "PlayState.lua"
-aliases:
-  - 06-starter-template/bttf/states/playstate
 ---
 
 ```lua
@@ -150,3 +148,5 @@ function PlayState:render()
 	love.graphics.printf('hold right to accelerate - spacebar to fly', 0, 45, VIRTUAL_WIDTH, 'center')
 end
 ```
+
+Part of the [[Starter-Template/bttf/index|BTTF project]] — pattern explained in [[Cookbook/Game-States|Game States]], template in [[Starter-Template/index|Starter Template]].

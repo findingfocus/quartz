@@ -1,7 +1,5 @@
 ---
 title: Playable Demos
-aliases:
-  - 10-demos/index
 description: Play in your browser, then steal the source — every demo ships code + downloads.
 ---
 

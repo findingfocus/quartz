@@ -1,7 +1,5 @@
 ---
 title: Desktop Distribution
-aliases:
-  - 09-distribution/desktop
 description: Package your Love2D game for Windows, Mac, and Linux from one .love file.
 ---
 
@@ -13,6 +11,8 @@ One `.love` file, three wrappers. Players never install Love2D — you bundle it
 zip -9 -r mygame.love . -x "*.git*" "*.gitignore"
 ```
 
+> [!TIP]
+> The -x argument is only necessary on git repos, this excludes any hidden git files so you don't bloat your executables.
 ## Windows
 
 1. Download the Windows Love2D zip (64-bit) from [love2d.org](https://love2d.org/)
@@ -23,7 +23,7 @@ zip -9 -r mygame.love . -x "*.git*" "*.gitignore"
 
 1. Download `love.app`
 2. Copy it to `MyGame.app`, drop `mygame.love` into `MyGame.app/Contents/Resources/`
-3. Zip the `.app`. Note: unsigned apps trigger Gatekeeper — tell players to right-click → Open, or sign with a Developer ID for wide release
+3. Zip the `.app`. Note: unsigned apps trigger Gatekeeper — tell players to right-click → Open
 
 ## Linux
 
@@ -35,7 +35,6 @@ zip -9 -r mygame.love . -x "*.git*" "*.gitignore"
 
 ## Checklist before upload
 
-- [ ] Tested on a fresh machine (not just yours)
-- [ ] Icon + window title set in `conf.lua`
-- [ ] `escape` quits cleanly, no console window on Windows release
+- [ ] Tested on a separate machine if possible
+- [ ] `escape` quits cleanly
 - [ ] README with controls included in the zip

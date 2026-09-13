@@ -1,7 +1,5 @@
 ---
 title: Lua Essentials
-aliases:
-  - 03-lua-essentials/index
 description: Just enough Lua to make games — variables, tables, functions, and the loop mindset.
 ---
 
@@ -14,6 +12,11 @@ local score = 0
 local playerName = "Marty"
 score = score + 10
 print(score) -- shows in console, great for debugging
+
+-- print to game screen
+function love.draw()
+  love.graphics.print(string.format("Score: %d", score), 10, 10)
+end
 ```
 
 > [!NOTE]
@@ -50,8 +53,11 @@ Tables are 90% of Lua. Learn them and everything clicks:
 ```lua
 -- Array-like
 local inventory = {"key", "map", "flux-capacitor"}
-print(inventory[1]) -- Lua starts at 1!
-table.insert(inventory, "skateboard")
+print(inventory[1]) -- prints "key" (Lua starts at 1!)
+table.insert(inventory, "skateboard") -- appends to end
+table.insert(inventory, 2, "lantern") -- insert at position 2, shifts rest right
+local removed = table.remove(inventory, 3) -- removes + returns item at 3 ("map")
+print(removed) -- prints "map" (the item we just removed)
 
 -- Object-like
 local player = { x = 100, y = 200, speed = 300 }
@@ -60,6 +66,12 @@ player.x = player.x + 10
 -- Loop over it
 for i, item in ipairs(inventory) do
   print(i, item)
+end
+
+-- pairs vs ipairs: ipairs is array-only, in order (1, 2, 3... stops at first nil).
+-- pairs walks every key in any order, including object keys like x, y.
+for k, v in pairs(player) do
+  print(k, v) -- e.g. x  100 / y  200 / speed  300, order not guaranteed
 end
 ```
 
@@ -98,7 +110,6 @@ Change `200` to `500 * dt` vs `5` with no `dt` and feel the difference.
 | `unexpected symbol near '='` | Missing `local`/`function` keyword or an `end` above |
 | Array starts at 0 habit | Lua arrays start at **1**. `myTable[0]` is `nil`. |
 
-## Next
 
 > [!tip] Next step
 > Continue with [[Love2D-Basics/index|Love2D Basics]] — the 3 functions that run every game.

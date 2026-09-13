@@ -1,7 +1,5 @@
 ---
 title: Scaling with Push
-aliases:
-  - 07-cookbook/scaling-with-push
 description: Crisp pixel-art scaling on any window size using push.lua from Ulydev/push.
 ---
 

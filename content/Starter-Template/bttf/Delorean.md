@@ -1,7 +1,5 @@
 ---
 title: "Delorean.lua"
-aliases:
-  - 06-starter-template/bttf/delorean
 ---
 
 ```lua

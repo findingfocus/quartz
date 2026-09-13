@@ -1,7 +1,5 @@
 ---
 title: Movement and Jump
-aliases:
-  - 07-cookbook/movement-and-jump
 description: Smooth top-down movement and platformer jumping with gravity that feels good.
 ---
 

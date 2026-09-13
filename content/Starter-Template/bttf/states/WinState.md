@@ -1,7 +1,5 @@
 ---
 title: "WinState.lua"
-aliases:
-  - 06-starter-template/bttf/states/winstate
 ---
 
 ```lua
@@ -36,4 +34,7 @@ function WinState:render()
 	love.graphics.setFont(smallFont)
 	love.graphics.printf('press enter to play again', 0, VIRTUAL_HEIGHT / 2, VIRTUAL_WIDTH, 'center')
 end
+```
+
+Part of the [[Starter-Template/bttf/index|BTTF project]] — pattern explained in [[Cookbook/Game-States|Game States]], template in [[Starter-Template/index|Starter Template]].
 ```

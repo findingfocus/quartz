@@ -1,7 +1,5 @@
 ---
 title: Save and Load
-aliases:
-  - 07-cookbook/save-and-load
 description: Persist high scores and settings between sessions with 15 lines of Lua.
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: Audio
-aliases:
-  - 07-cookbook/audio
 description: Music and sound effects in Love2D without crackles, overlap bugs, or bloat.
 ---
 

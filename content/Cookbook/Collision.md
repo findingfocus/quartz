@@ -1,7 +1,5 @@
 ---
 title: Collision
-aliases:
-  - 07-cookbook/collision
 description: Simple AABB box collision for Pong, platformers, and top-down games — no physics engine needed.
 ---
 
@@ -23,7 +21,6 @@ local player = { x = 100, y = 100, w = 32, h = 32 }
 local coin = { x = 300, y = 200, w = 16, h = 16, taken = false }
 
 function love.update(dt)
-  -- (movement here)
   if not coin.taken and overlaps(player, coin) then
     coin.taken = true
     score = score + 1
@@ -42,14 +39,11 @@ end
 ```
 
 For full platformer resolution (all 4 sides), resolve X first, then Y — two separate checks.
-
-> [!TIP]
-> Need slopes, bouncing, or hundreds of bodies? Graduate to a library like `windfield` (see [[Tools/index\|Tools]]). Don't start there.
-
 ## When it breaks
 
-| Symptom | Fix |
-| ------- | --- |
-| Tunneling at high speed | Move in smaller steps or clamp position on hit; cap `dt` with `dt = math.min(dt, 1/30)` |
-| Collision fires every frame | Add a flag (`taken`, `cooldown`) or resolve position so they no longer overlap |
-| Nothing collides | `print()` both boxes' x/y/w/h — usually a width/height is 0 or nil |
+| Symptom                     | Fix                                                                                     |
+| --------------------------- | --------------------------------------------------------------------------------------- |
+| Tunneling at high speed     | Move in smaller steps or clamp position on hit; cap `dt` with `dt = math.min(dt, 1/30)` |
+| Collision fires every frame | Resolve position after detection so they no longer overlap.                             |
+| Nothing collides            | `print()` both boxes' x/y/w/h — usually a width/height is 0 or nil                      |
+

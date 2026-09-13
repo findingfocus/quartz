@@ -1,7 +1,5 @@
 ---
 title: Start Here
-aliases:
-  - 01-start-here/index
 description: New to game dev? Pick your path and ship your first playable in under an hour.
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: Setup & Quickstart
-aliases:
-  - 02-setup/index
 description: Install Love2D, open the barebones project, and run your first window in 15 minutes.
 ---
 

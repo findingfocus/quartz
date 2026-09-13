@@ -33,3 +33,6 @@ Grab a friend and play on desktop.
 Music Credits:
 Artist – Paul O'Dette  
 Composer – John Dowland
+
+---
+**Study the source:** turn structure follows the [[Cookbook/Game-States|Game States]] pattern. More to play in [[Demos/index|Demos]].

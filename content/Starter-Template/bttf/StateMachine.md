@@ -1,7 +1,6 @@
 ---
 title: "StateMachine.lua"
-aliases:
-  - 06-starter-template/bttf/statemachine
+
 ---
 
 ```lua

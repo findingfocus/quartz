@@ -1,7 +1,5 @@
 ---
 title: Game States
-aliases:
-  - 07-cookbook/game-states
 description: Title, play, pause, and game-over screens without spaghetti code.
 ---
 
@@ -19,15 +17,16 @@ function love.update(dt)
 end
 
 function love.draw()
+  local WIDTH, HEIGHT = love.graphics.getDimensions()
   if state == "title" then
-    love.graphics.print("Press ENTER", 350, 280)
+    love.graphics.printf("Press ENTER", 0, HEIGHT / 2 - 10, WIDTH, "center")
   elseif state == "play" then
     drawGame()
   elseif state == "pause" then
     drawGame()
-    love.graphics.print("PAUSED", 370, 280)
+    love.graphics.printf("PAUSED", 0, HEIGHT / 2 - 10, WIDTH, "center")
   elseif state == "over" then
-    love.graphics.print("GAME OVER - press R", 320, 280)
+    love.graphics.printf(string.format("GAME OVER - press R"), 0, HEIGHT / 2 - 10, WIDTH, "center")
   end
 end
 

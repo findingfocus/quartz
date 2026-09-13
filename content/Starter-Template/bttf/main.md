@@ -1,7 +1,5 @@
 ---
 title: "main.lua"
-aliases:
-  - 06-starter-template/bttf/main
 ---
 
 ```lua
