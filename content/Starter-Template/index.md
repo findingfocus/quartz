@@ -51,7 +51,7 @@ Full guidance lives in the repo's `README.md`.
 
 ## Study the full example (BTTF)
 
-The [[Game Demos/BTTF|BTTF]] demo was built on this exact pattern, extended with a speedometer, obstacles, crash audio, and touch zones. Browse it annotated here:
+The [[Demos/BTTF|BTTF]] demo was built on this exact pattern, extended with a speedometer, obstacles, crash audio, and touch zones. Browse it annotated here:
 
 - [[Starter-Template/bttf/main|main.lua]] — the whole wiring
 - [[Starter-Template/bttf/StateMachine|StateMachine.lua]]
@@ -63,7 +63,6 @@ The [[Game Demos/BTTF|BTTF]] demo was built on this exact pattern, extended with
 
 Full file tree + download: [[Starter-Template/bttf/index|BTTF project page]].
 
-## Next
 
 > [!tip] Next step
-> Stuck on a mechanic? Grab a recipe from the [[Cookbook/index|Cookbook]] instead of rewriting from scratch.
+> Don't know where to start? Grab a recipe from the [[Cookbook/index|Cookbook]] or dig into the code of the [[Demos]] for some ideas.

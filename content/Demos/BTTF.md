@@ -1,6 +1,6 @@
 ---
 title: BTTF
-# Pins Game Demos folder order (newest first)
+# Pins Demos folder order (newest first)
 modified: 2026-07-03
 ---
 <style>

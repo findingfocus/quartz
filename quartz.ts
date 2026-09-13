@@ -3,7 +3,7 @@ import * as ExternalPlugin from "./.quartz/plugins"
 
 //test
 
-// Sidebar order: the hub follows an explicit rank map, the Game Demos
+// Sidebar order: the hub follows an explicit rank map, the Demos
 // folder follows a curated order, everything else keeps alphabetical title order.
 // Must stay self-contained: this function is serialized into the page for client-side sorting.
 type ExplorerNode = {
@@ -22,10 +22,10 @@ function customOrder(a: ExplorerNode, b: ExplorerNode): number {
   const segsB = b.slugSegments || []
   const segA = segsA[segsA.length - 1] || ""
   const segB = segsB[segsB.length - 1] || ""
-  // Game Demos: newest first, oldest (BTTF) last
+  // Demos: newest first, oldest (BTTF) last
   if (
-    segsA.slice(0, -1).join("/") === "game-demos" &&
-    segsB.slice(0, -1).join("/") === "game-demos"
+    segsA.slice(0, -1).join("/") === "demos" &&
+    segsB.slice(0, -1).join("/") === "demos"
   ) {
     const demoOrder: Record<string, number> = {
       "tashio-tempo": 0,

@@ -8,11 +8,11 @@ This hub leads with Love2D on purpose, but it's not the only road.
 ## Why Love2D first
 
 - **Tiny:** ~10MB, no editor to learn, you read every file
-- **Stable:** APIs barely change; tutorials from years ago still work
+- **Simple:** Lua is easy to read and fast to prototype
 - **Shippable:** web + desktop + Steam from one codebase ([[Distribution/index|how]])
-- **Honest:** no marketplace, no lock-in, just Lua files you own
+- **Free:** no marketplace, no lock-in, just Lua files you own
 
-My personal reasons + full comparison live in my tool notes — but the short version: Love2D teaches *games*, not *an editor*.
+I value learning open source tools that can't be taken away from you. Love2D teaches *games*, not *an editor*.
 
 ## When to reach for something else
 
@@ -25,9 +25,9 @@ My personal reasons + full comparison live in my tool notes — but the short ve
 > [!NOTE]
 > Godot Starter: if you outgrow this hub, do Godot's official [Your first 2D game](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html) tutorial, then come back — state machines, `dt`, and collision transfer 1:1.
 
-## Jai lab (future)
+## Jai (future planning)
 
-I'm learning [Jai](https://github.com/Jai-Community/Jai-Community-Library/wiki) and will document that process here — lower-level, hand-rolled, performance-first. Expect devlogs, not polished tutorials, at first. Love2D remains the recommended start; Jai is the deep end I'm exploring publicly.
+I'm learning [Jai](https://github.com/Jai-Community/Jai-Community-Library/wiki) and will document that process here. It's lower-level, hand-rolled, performance-first. Expect devlogs, not polished tutorials, at first. Love2D remains the recommended start; Jai is the deep end I will be exploring publicly.
 
 ## Suggested order
 

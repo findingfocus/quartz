@@ -1,5 +1,5 @@
 ---
-# Pins Game Demos folder order (newest first)
+# Pins Demos folder order (newest first)
 modified: 2026-07-06
 ---
 <style>

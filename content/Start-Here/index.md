@@ -13,6 +13,9 @@ description: New to game dev? Pick your path and ship your first playable in und
 | **B. Coded, new to games** | "I know some programming" | [[Setup/index\|Setup]] → [[Love2D-Basics/index\|Love2D Basics]] → [[First-Game/index\|First Game]] | ~30 min |
 | **C. Just want to tinker** | "Give me code now" | [[Starter-Template/index\|Starter Template]] → [[Demos/index\|Play a demo]] → [[Cookbook/index\|Cookbook]] | ~10 min |
 
+> [!NOTE] Learn to walk first
+> Learning game development before knowing how to code is like running before walking. Pair this hub with [CS50](https://cs50.harvard.edu/x/) for fundamentals and [Games50](https://cs50.harvard.edu/games/) for deeper knowledge — they teach you to instruct computers, this hub helps you get games on screen.
+
 ## The 4-step loop
 
 1. **Setup** — install Love2D, open a folder, run a window. [[Setup/index\|Setup guide]]
@@ -28,7 +31,7 @@ description: New to game dev? Pick your path and ship your first playable in und
 - No money, no game engine account, no experience
 
 > [!help] Get Help
-> Stuck? Every page has a **Try it** step and a **When it breaks** box. Read the break box first — that's where the learning lives.
+> Stuck? Every page has a **Try it** step and a **When it breaks** box. Read the break box to find out common solutions to issues.
 
 > [!tip] Next step
-> Go to [[Setup/index|Setup]] and get a window on screen. That's your first win.
+> Go to [[Setup/index|Setup]] and get a window on screen. That's your first achievement.

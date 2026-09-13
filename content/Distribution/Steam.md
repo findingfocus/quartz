@@ -23,4 +23,4 @@ Steam is desktop builds + paperwork + a wrapper. If [[Distribution/Desktop|Deskt
 > [!NOTE]
 > Start with itch.io (free, instant) before Steam. Same zips, zero fee, great for playtesting. Steam when you have a game strangers pay for.
 
-Inspiration: my shipped Love2D game [[Game Demos/Tashio Tempo|Tashio Tempo]] — web demo + desktop zips + Steam release, same pipeline above.
+Inspiration: my shipped Love2D game [[Demos/Tashio Tempo|Tashio Tempo]] — web demo + desktop zips + Steam release, same pipeline above.

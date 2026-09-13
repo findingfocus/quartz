@@ -7,12 +7,12 @@ Don't just read — play, then open the source and see how the trick works. Ever
 
 ## Demos
 
-| Game                                                          | What to steal from the source                                         |
-| ------------------------------------------------------------- | --------------------------------------------------------------------- |
-| [[Game Demos/Joust\|Joust]] — 2-player joust duel             | Flap physics, local multiplayer input, web embed with mobile controls |
-| [[Game Demos/Tak\|Tak]] — grab-a-friend board game            | Large-format web embed, turn structure                                |
-| [[Game Demos/Tashio Tempo\|Tashio Tempo]] — gameboy adventure | Full ship pipeline: web + Win/Mac/Linux + Steam from one codebase     |
-| [[Game Demos/BTTF\|BTTF]] — My first game             | State machine (title → play → win), speed-coupled parallax            |
+| Game                                                               | What to steal from the source                                      |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| [[Demos/Tashio Tempo\|Tashio Tempo]] — gameboy adventure            | Full ship pipeline in [[Distribution/index\|Distribution]]          |
+| [[Demos/Joust\|Joust]] — 2-player duel                              | Collision from [[Cookbook/Collision\|Collision]]                   |
+| [[Demos/Tak\|Tak]] — board game                                     | Multiple [[Cookbook/Audio\|Audio]] examples                        |
+| [[Demos/BTTF\|BTTF]] — built on the Starter Template               | Annotated in [[Starter-Template/bttf/index\|BTTF project page]]    |
 
 ## Practical Demo Tips
 
