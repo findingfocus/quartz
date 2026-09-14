@@ -27,7 +27,7 @@ I value learning open source tools that can't be taken away from you. Love2D tea
 
 ## Jai (future planning)
 
-I'm learning [Jai](https://github.com/Jai-Community/Jai-Community-Library/wiki) and will document that process here. It's lower-level, hand-rolled, performance-first. Expect devlogs, not polished tutorials, at first. Love2D remains the recommended start; Jai is the deep end I will be exploring publicly.
+I'm learning [Jai](https://github.com/Jai-Community/Jai-Community-Library/wiki) and will document that process here. It's lower-level, and performance focused. Expect devlogs once it is released. Love2D remains the recommended start; Jai is the deep end I will be exploring publicly.
 
 ## Suggested order
 

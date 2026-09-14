@@ -37,6 +37,6 @@ The kind of games I care about making aren't just entertainment, they can teach 
 - [[Tools/index|Tools & Assets]] — Free editors, art, audio + Lua libraries.
 - [[Distribution/index|Distribution]] — Ship to [[Distribution/Web|Web]], [[Distribution/Desktop|Desktop]], [[Distribution/Steam|Steam]].
 - [[Demos/index|Playable Demos]] — Play in browser, steal the source.
-- [[Beyond/index|Beyond Love2D]] — Godot/3D escape hatch + Jai lab.
+- [[Beyond/index|Beyond Love2D]] — Godot/3D alternatives.
 
 **Make the game that you want to play. The world wants to see what you have to offer.**
